@@ -4,3 +4,5 @@ print(num1 * int(num2[2]))
 print(num1 * int(num2[1]))
 print(num1 * int(num2[0]))
 print(num1 * int(num2))
+
+#문제 주소 : https://www.acmicpc.net/problem/2588

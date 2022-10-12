@@ -3,3 +3,5 @@ print((A+B)%C)
 print(((A%C) + (B%C))%C)
 print((A*B)%C)
 print(((A%C) * (B%C))%C)
+
+#문제 주소 : https://www.acmicpc.net/problem/10430
