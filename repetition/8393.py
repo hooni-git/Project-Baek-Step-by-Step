@@ -1,7 +1,3 @@
-from itertools import count
-from re import I
-
-
 num = int(input())
 result = 0
 
