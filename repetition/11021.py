@@ -8,4 +8,4 @@ for i in range(T):
     result.append(a+b)
 
 for n in range(len(result)):
-    print("Case #%d:" %(n),result[n])
+    print("Case #%d:" %(n+1),result[n])
