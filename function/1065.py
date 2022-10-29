@@ -14,20 +14,8 @@ def sequence(num):      #수를 입력받아서 등차수열인지 판단하는 
 n = int(input())
 ans_count = 0
 
-#print(sequence(n))
-
 for i in range(1, n+1):
     if sequence(i):
         ans_count += 1
 
 print(ans_count)
-
-
-
-
-
-"""for i in range(1, n+1):
-    for n in str(i):
-        if int(i) < 10:
-            count_num += 1
-        elif n"""
