@@ -1,10 +1,14 @@
-import sys
+from string import ascii_lowercase
 
-t = int(input())
+str_abc = input()
+arry_abc = [-1] * 26
+arry_alph = list(ascii_lowercase)
+k = 0;
 
-str_in = [sys.stdin.readline().split() for _ in range(t)]
-
-for i in range(t):
-    for j in str_in[i][1]:
-        print(j*int(str_in[i][0]), end='')
-    print()
+for i in range(len(str_abc)):
+    for j in range(len(arry_alph)):
+        if arry_abc[j] == -1:
+            if str_abc[i] == arry_alph[j]:
+                arry_abc[j] = k
+    k += 1
+print(*arry_abc)
