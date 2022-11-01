@@ -7,9 +7,8 @@ revenue = 0
 
 revenue = C - B
 
-ans = all_money // revenue
-
-if revenue < 0:
+if revenue <= 0:
     print(-1)
 else:
+    ans = all_money // revenue
     print(ans+1)
